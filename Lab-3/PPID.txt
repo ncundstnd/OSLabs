@@ -1,0 +1,3 @@
+wmic process where '(processid=x)' get 'processid,parentprocessid'
+
+ps -o ppid= -p x

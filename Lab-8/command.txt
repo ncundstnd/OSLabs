@@ -1,0 +1,4 @@
+wmic memorychip list full					powershell/cmd
+Get-WmiObject -Class "Win32_PhysicalMemory"		powershell
+systeminfo	| find "память"					cmd
+resmon								cmd/powershell

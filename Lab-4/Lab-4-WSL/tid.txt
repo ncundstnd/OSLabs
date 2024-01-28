@@ -1,0 +1,4 @@
+ps -T -p x
+ps -Lp x H
+
+(get-process -name lab-4).threads.id
